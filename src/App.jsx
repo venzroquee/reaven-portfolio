@@ -10,7 +10,7 @@ import {
   ChevronRight
 } from 'lucide-react';
 
-import profilePic from './assets/img.jpg';
+import profilePic from './assets/img2.jpg';
 import cert1 from "/cert1.jpg";
 import grad from "/grad.jpg";
 
