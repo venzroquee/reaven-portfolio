@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft, ExternalLink, Github, X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ArrowLeft, X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ThemeToggle from './ThemeToggle'; // Added Toggle
 
 // --- Image Imports ---
 import finance1 from './assets/finance1.png';
@@ -58,13 +59,11 @@ const projects = [
       finance6, finance7, finance8, finance9, finance10
     ]
   },
-    {
-    title: "Railink",
+  {
+    title: "RaiLink",
     description: "A smart commuting solution designed to optimize public transport navigation through live ETA updates, train temperature monitoring, and instant digital Beep card reloading.",
     tech: ["Figma", "UI/UX", "Mobile Design"],
-    images: [rail1, rail2, rail3, rail4,
-             rail5, rail6, rail7, rail8
-    ]
+    images: [rail1, rail2, rail3, rail4, rail5, rail6, rail7, rail8]
   },
 ];
 
@@ -101,20 +100,22 @@ export default function ProjectsPage() {
   }, [isOpen, currentGallery]);
 
   return (
-    <div className="min-h-screen bg-white font-sans text-slate-900 p-8 md:p-24 animate-in fade-in duration-500 relative">
+    <div className="min-h-screen bg-white dark:bg-slate-950 font-sans text-slate-900 dark:text-slate-100 p-8 md:p-24 animate-in fade-in duration-500 transition-colors duration-300 relative">
       
+      <ThemeToggle />
+
       {/* Lightbox Overlay */}
       {isOpen && currentGallery.length > 0 && (
         <div 
           className="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center p-4 backdrop-blur-sm transition-opacity duration-300"
           onClick={() => setIsOpen(false)}
         >
-          <button className="absolute top-6 right-6 text-white/70 hover:text-white z-[110]">
+          <button className="absolute top-6 right-6 text-white/70 hover:text-white z-[110] bg-transparent border-none cursor-pointer">
             <X size={32} />
           </button>
 
           {currentGallery.length > 1 && (
-            <button onClick={prevPhoto} className="absolute left-4 md:left-10 text-white/50 p-3 rounded-full hover:bg-white/10 hover:text-white z-[110]">
+            <button onClick={prevPhoto} className="absolute left-4 md:left-10 text-white/50 p-3 rounded-full hover:bg-white/10 hover:text-white z-[110] bg-transparent border-none cursor-pointer">
               <ChevronLeft size={48} />
             </button>
           )}
@@ -127,7 +128,7 @@ export default function ProjectsPage() {
           />
 
           {currentGallery.length > 1 && (
-            <button onClick={nextPhoto} className="absolute right-4 md:right-10 text-white/50 p-3 rounded-full hover:bg-white/10 hover:text-white z-[110]">
+            <button onClick={nextPhoto} className="absolute right-4 md:right-10 text-white/50 p-3 rounded-full hover:bg-white/10 hover:text-white z-[110] bg-transparent border-none cursor-pointer">
               <ChevronRight size={48} />
             </button>
           )}
@@ -139,7 +140,7 @@ export default function ProjectsPage() {
       )}
 
       <div className="max-w-3xl mx-auto">
-        <Link to="/" className="inline-flex items-center gap-2 text-slate-400 hover:text-slate-900 mb-12 transition-all hover:-translate-x-1">
+        <Link to="/" className="inline-flex items-center gap-2 text-slate-400 hover:text-slate-900 dark:hover:text-white mb-12 transition-all hover:-translate-x-1">
           <ArrowLeft size={20} /> Back to Home
         </Link>
 
@@ -147,24 +148,21 @@ export default function ProjectsPage() {
 
         <div className="space-y-16">
           {projects.map((p, i) => (
-            <div key={i} className="border-b border-slate-100 pb-12 last:border-0">
+            <div key={i} className="border-b border-slate-100 dark:border-slate-800 pb-12 last:border-0">
               <div className="flex items-center justify-between mb-3">
-                <h3 className="text-2xl font-bold">{p.title}</h3>
-                <div className="flex gap-3 text-slate-400/50">
-                </div>
+                <h3 className="text-2xl font-bold text-slate-900 dark:text-white">{p.title}</h3>
               </div>
 
-              <p className="text-slate-600 text-base mb-6 text-left leading-relaxed max-w-2xl">
+              <p className="text-slate-600 dark:text-slate-400 text-base mb-6 text-left leading-relaxed max-w-2xl">
                 {p.description}
               </p>
 
-              {/**/}
               {p.images && p.images.length > 0 && (
                 <div className="flex gap-2 overflow-x-auto pb-4 mb-4 scrollbar-hide">
                   {p.images.map((img, index) => (
                     <div 
                       key={index} 
-                      className="w-20 md:w-24 aspect-square bg-slate-50 rounded-lg overflow-hidden border border-slate-100 shadow-sm flex-shrink-0 group cursor-pointer"
+                      className="w-20 md:w-24 aspect-square bg-slate-50 dark:bg-slate-900 rounded-lg overflow-hidden border border-slate-100 dark:border-slate-800 shadow-sm flex-shrink-0 group cursor-pointer"
                       onClick={() => openLightbox(p.images, index)}
                     >
                       <img 
@@ -179,7 +177,7 @@ export default function ProjectsPage() {
 
               <div className="flex flex-wrap gap-2">
                 {p.tech.map(t => (
-                  <span key={t} className="px-2.5 py-1 bg-slate-50 border border-slate-100 rounded text-[10px] font-bold text-slate-400 uppercase tracking-wider">
+                  <span key={t} className="px-2.5 py-1 bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded text-[10px] font-bold text-slate-400 uppercase tracking-wider">
                     {t}
                   </span>
                 ))}
