@@ -6,7 +6,7 @@ import ThemeToggle from './ThemeToggle'; // Added Toggle
 const categories = [
   { name: 'Frontend', skills: ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Tailwind CSS', 'Vite', 'HTML5', 'CSS3'] },
   { name: 'Backend', skills: ['Node.js', 'Express.js', 'PostgreSQL', 'MongoDB', 'Vault', 'Firebase', 'MinIO File Storage', 'Python', 'C++', 'C' , 'PHP'] },
-  { name: 'DevOps & Cloud', skills: ['AWS', 'Docker', 'Vercel'] },
+  { name: 'DevOps & Cloud', skills: ['AWS', 'Docker', 'Vercel','Github'] },
   { name: 'Security & Identity', skills: [ 'SHA-256', 'SHA-512', '2FA (TOTP)', 'HashiCorp Vault', 'AWS IAM', 'AES Encryption'] }
 ]
 
