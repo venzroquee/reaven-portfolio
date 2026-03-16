@@ -151,8 +151,6 @@ export default function ProjectsPage() {
               <div className="flex items-center justify-between mb-3">
                 <h3 className="text-2xl font-bold">{p.title}</h3>
                 <div className="flex gap-3 text-slate-400/50">
-                  <Github size={18} className="hover:text-slate-900 cursor-pointer transition-colors" />
-                  <ExternalLink size={18} className="hover:text-slate-900 cursor-pointer transition-colors" />
                 </div>
               </div>
 
@@ -160,7 +158,7 @@ export default function ProjectsPage() {
                 {p.description}
               </p>
 
-              {/* TINY Thumbnail Strip */}
+              {/**/}
               {p.images && p.images.length > 0 && (
                 <div className="flex gap-2 overflow-x-auto pb-4 mb-4 scrollbar-hide">
                   {p.images.map((img, index) => (
