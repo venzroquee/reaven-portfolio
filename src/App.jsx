@@ -288,7 +288,7 @@ function App() {
           </section>
 
           <a
-            href="/Roque_Reaven Manuelle_Resume.pdf"
+            href="/Roque_Reaven Manuelle_Resume v2.pdf"
             download
             className="group block p-6 bg-slate-900 rounded-[2rem] text-white transition-all hover:scale-[1.02] text-left"
           >
