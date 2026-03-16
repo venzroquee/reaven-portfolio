@@ -115,7 +115,7 @@ function App() {
             <div className="space-y-4 text-slate-600 dark:text-slate-400 leading-relaxed text-lg text-pretty">
               <p>Hey! I'm a BS Information Technology graduate from De La Salle University - Manila. I specialize in building secure web applications, with a background in web development and software development aimed at automating manual workflows.</p>
               <p>I also have hands-on experience in configuring network infrastructure, managing firewalls, and implementing critical network services like VLANs, DHCP, and VPN connectivity.</p>
-              <p>Lately, I've been keen on learning more about system administration and AI in particular on how AI-driven solutions can be used to automate manual tasks, detect system issues, and accelerate the deployment of scalable infrastructure.</p>
+              <p>Lastly, I've been keen on learning more about system administration and AI in particular on how AI-driven solutions can be used to automate manual tasks, detect system issues, and accelerate the deployment of scalable infrastructure.</p>
             </div>
           </section>
 
