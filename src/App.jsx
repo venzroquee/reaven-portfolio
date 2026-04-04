@@ -96,7 +96,7 @@ function App() {
               </h1>
               <p className="text-gray-500 dark:text-slate-400 font-medium leading-none">venzroque0929@gmail.com</p>
               <p className="text-gray-500 dark:text-slate-400 font-medium">Manila, Philippines</p>
-              <p className="text-xl text-slate-700 dark:text-slate-300 font-semibold pt-3">Software Developer | IT Graduate</p>
+              <p className="text-xl text-slate-700 dark:text-slate-300 font-semibold pt-3">IT Professional | Full-Stack Developer & Systems Support</p>
 
               <div className="flex gap-4 pt-3">
                 <a href="https://www.linkedin.com/in/reaven-roque" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-600 transition-colors">
@@ -114,7 +114,7 @@ function App() {
             <h2 className="text-xl font-bold border-b border-slate-100 dark:border-slate-800 pb-2">About</h2>
             <div className="space-y-4 text-slate-600 dark:text-slate-400 leading-relaxed text-lg text-pretty">
               <p>Hey! I'm a BS Information Technology graduate from De La Salle University - Manila. I specialize in building secure web applications, with a background in web development and software development aimed at automating manual workflows.</p>
-              <p>I also have hands-on experience in configuring network infrastructure, managing firewalls, and implementing critical network services like VLANs, DHCP, and VPN connectivity.</p>
+              <p>Beyond development, I am also proficient in System Administration and Windows IAM, with extensive experience in end-to-end IT support and network infrastructure. I specialize in troubleshooting complex connectivity issues, managing firewalls, and maintaining critical services like VLANs, DHCP, and VPNs. I aim to keep accounts secure and the network reliable so that every user has a 100% seamless experience.</p>
               <p>Lastly, I've been keen on learning more about system administration and AI in particular on how AI-driven solutions can be used to automate manual tasks, detect system issues, and accelerate the deployment of scalable infrastructure.</p>
             </div>
           </section>
@@ -122,7 +122,7 @@ function App() {
           {/* Tech Stack Section */}
           <section className="space-y-6 text-left">
             <div className="flex justify-between items-baseline border-b border-slate-100 dark:border-slate-800 pb-2">
-              <h2 className="text-xl font-bold">Tech Stack</h2>
+              <h2 className="text-xl font-bold">Techical Expertise</h2>
               <Link to="/tech-stack" className="text-sm font-medium text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors">See All</Link>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

@@ -7,7 +7,10 @@ const categories = [
   { name: 'Frontend', skills: ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Tailwind CSS', 'Vite', 'HTML5', 'CSS3'] },
   { name: 'Backend', skills: ['Node.js', 'Express.js', 'PostgreSQL', 'MongoDB', 'Vault', 'Firebase', 'MinIO File Storage', 'Python', 'C++', 'C' , 'PHP'] },
   { name: 'DevOps & Cloud', skills: ['AWS', 'Docker', 'Vercel','Github'] },
-  { name: 'Security & Identity', skills: [ 'SHA-256', 'SHA-512', '2FA (TOTP)', 'HashiCorp Vault', 'AWS IAM', 'AES Encryption'] }
+  { name: 'Networking', skills: ['VLANS', 'DHCP/DNS', 'WLANS/WLC', 'VPN Connectivity' ,'Fortigate' ,'Sangfor' , 'Ruijie Networking'] },
+  { name: 'OS & Tools', skills: ['Windows Server', 'Linux (Ubuntu/Debian', 'Windows IAM'] },
+  { name: 'Support Tools', skills: ['Zoho Workspace', 'Anydesk', 'Teamviewer', 'Ultraviewer' , 'Troubleshooting (L1/L2)'] },
+  { name: 'Security & IAM', skills: [ 'SHA-256', 'SHA-512', '2FA (TOTP)', 'HashiCorp Vault', 'AWS IAM', 'AES Encryption'] }
 ]
 
 export default function TechStackPage() {
@@ -23,8 +26,8 @@ export default function TechStackPage() {
         </Link>
         
         <header className="mb-16 text-left">
-          <h1 className="text-4xl font-bold tracking-tight mb-4">Tech Stack</h1>
-          <p className="text-slate-500 dark:text-slate-400 text-lg">A comprehensive list of the tools and technologies I use to build secure, scalable applications.</p>
+          <h1 className="text-4xl font-bold tracking-tight mb-4">Techical Expertise</h1>
+          <p className="text-slate-500 dark:text-slate-400 text-lg">A comprehensive toolkit of the technologies I use to build secure, scalable applications and provide end-to-end IT infrastructure support .</p>
         </header>
         
         <div className="space-y-16">
