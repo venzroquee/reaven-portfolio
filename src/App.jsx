@@ -96,7 +96,7 @@ function App() {
               </h1>
               <p className="text-gray-500 dark:text-slate-400 font-medium leading-none">venzroque0929@gmail.com</p>
               <p className="text-gray-500 dark:text-slate-400 font-medium">Manila, Philippines</p>
-              <p className="text-xl text-slate-700 dark:text-slate-300 font-semibold pt-3">IT Professional | Full-Stack Developer & Systems Support</p>
+              <p className="text-xl text-slate-700 dark:text-slate-300 font-semibold pt-3">IT Service Desk | IAM & Endpoint Administration</p>
 
               <div className="flex gap-4 pt-3">
                 <a href="https://www.linkedin.com/in/reaven-roque" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-600 transition-colors">
@@ -113,9 +113,10 @@ function App() {
           <section className="space-y-4 text-left">
             <h2 className="text-xl font-bold border-b border-slate-100 dark:border-slate-800 pb-2">About</h2>
             <div className="space-y-4 text-slate-600 dark:text-slate-400 leading-relaxed text-lg text-pretty">
-              <p>Hey! I'm a BS Information Technology graduate from De La Salle University - Manila. I specialize in building secure web applications, with a background in web development and software development aimed at automating manual workflows.</p>
-              <p>Beyond development, I am also proficient in System Administration and Windows IAM, with extensive experience in end-to-end IT support and network infrastructure. I specialize in troubleshooting complex connectivity issues, managing firewalls, and maintaining critical services like VLANs, DHCP, and VPNs. I aim to keep accounts secure and the network reliable so that every user has a 100% seamless experience.</p>
-              <p>Lastly, I've been keen on learning more about system administration and AI in particular on how AI-driven solutions can be used to automate manual tasks, detect system issues, and accelerate the deployment of scalable infrastructure.</p>
+              <p>Hey! I'm Reaven, an IT professional and De La Salle University graduate currently managing enterprise infrastructure and endpoint security for finance and healthcare environments.</p>
+              <p>My background bridges the gap between software development and enterprise IT operations. While I started out building secure, automated web applications, my career naturally evolved into IT infrastructure support—specifically focusing on endpoint administration, identity access, and resolving complex technical escalations.</p>
+              <p>In my current Service Desk role, I specialize in Identity and Access Management (IAM), enterprise device deployment via Microsoft Intune and SCCM, and executing end-to-end diagnostics. Whether I am administering Microsoft Entra ID, configuring access policies, or troubleshooting connectivity issues across Windows and macOS environments, my core objective is to keep users secure and systems running seamlessly.</p>
+              <p>Looking forward, I am transitioning toward Systems Engineering and IT automation. I am highly focused on using my scripting background and AI-driven solutions to automate manual workflows, proactively detect system anomalies, and accelerate the deployment of scalable IT infrastructure.</p>
             </div>
           </section>
 
