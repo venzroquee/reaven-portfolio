@@ -235,7 +235,7 @@ function App() {
             </div>
           </section>
 
-          <a href="/Roque_Reaven Manuelle_Resume 2026.pdf" download className="group block p-6 bg-slate-900 dark:bg-slate-800 rounded-[2rem] text-white transition-all hover:scale-[1.02] text-left no-underline">
+          <a href="/roquereavenresume.pdf" download className="group block p-6 bg-slate-900 dark:bg-slate-800 rounded-[2rem] text-white transition-all hover:scale-[1.02] text-left no-underline">
             <div className="space-y-4">
               <div className="w-12 h-12 bg-white/10 rounded-2xl flex items-center justify-center group-hover:bg-white/20 transition-colors text-2xl">📄</div>
               <div>
