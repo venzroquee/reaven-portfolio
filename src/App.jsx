@@ -216,6 +216,14 @@ function App() {
           <section className="space-y-6 text-left">
             <h2 className="text-xl font-bold">Experience</h2>
             <div className="relative border-l-2 border-slate-100 dark:border-slate-800 ml-2 pl-6 space-y-10">
+                <div className="relative">
+                <div className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-black dark:bg-white border-4 border-white dark:border-slate-950 shadow-sm"></div>
+                <div>
+                  <p className="font-bold text-slate-900 dark:text-white leading-none">IT Service Desk Associate</p>
+                  <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">Unisys Philippines</p>
+                  <p className="text-xs font-bold text-slate-400 mt-1 uppercase tracking-tighter">Apr 2026 - Present</p>
+                </div>
+              </div>
               <div className="relative">
                 <div className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-black dark:bg-white border-4 border-white dark:border-slate-950 shadow-sm"></div>
                 <div>
