@@ -4,14 +4,35 @@ import { Link } from 'react-router-dom'
 import ThemeToggle from './ThemeToggle'; // Added Toggle
 
 const categories = [
-  { name: 'Frontend', skills: ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Tailwind CSS', 'Vite', 'HTML5', 'CSS3'] },
-  { name: 'Backend', skills: ['Node.js', 'Express.js', 'PostgreSQL', 'MongoDB', 'Vault', 'Firebase', 'MinIO File Storage', 'Python', 'C++', 'C' , 'PHP'] },
-  { name: 'DevOps & Cloud', skills: ['AWS', 'Docker', 'Vercel','Github'] },
-  { name: 'Networking', skills: ['VLANS', 'DHCP/DNS', 'WLANS/WLC', 'VPN Connectivity' ,'Fortigate' ,'Sangfor' , 'Ruijie Networking'] },
-  { name: 'OS & Tools', skills: ['Windows Server', 'Linux (Ubuntu/Debian', 'Windows IAM'] },
-  { name: 'Support Tools', skills: ['Zoho Workspace', 'Anydesk', 'Teamviewer', 'Ultraviewer' , 'Troubleshooting (L1/L2)'] },
-  { name: 'Security & IAM', skills: [ 'SHA-256', 'SHA-512', '2FA (TOTP)', 'HashiCorp Vault', 'AWS IAM', 'AES Encryption'] }
-]
+  { 
+    name: 'Cloud & Infrastructure', 
+    skills: ['Microsoft Azure', 'AWS', 'Citrix Workspace/VDI', 'Docker', 'MinIO File Storage', 'Vercel'] 
+  },
+  { 
+    name: 'Endpoint & IT Admin', 
+    skills: ['Microsoft Intune (MDM)', 'SCCM', 'Microsoft 365', 'Windows Server', 'Linux (Ubuntu/Debian)'] 
+  },
+  { 
+    name: 'Security & IAM', 
+    skills: ['Microsoft Entra ID', 'Active Directory', 'CyberArk', 'Okta', 'HashiCorp Vault', 'AWS IAM', 'MFA (TOTP)', 'Encryption (SHA/AES)'] 
+  },
+  { 
+    name: 'Networking', 
+    skills: ['Cisco', 'VLANs', 'DHCP/DNS', 'VPN Connectivity', 'FortiGate Firewalls', 'Sangfor', 'Ruijie'] 
+  },
+  { 
+    name: 'ITSM & Support', 
+    skills: ['ServiceNow', 'Remote Admin Tools', 'Zoho Workspace', 'ITIL Methodologies'] 
+  },
+  { 
+    name: 'Backend & Scripting', 
+    skills: ['Node.js', 'Express.js', 'PostgreSQL', 'MongoDB', 'Python', 'C/C++', 'PHP', 'Git'] 
+  },
+  { 
+    name: 'Frontend', 
+    skills: ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Tailwind CSS', 'Vite'] 
+  }
+];
 
 export default function TechStackPage() {
   return (
