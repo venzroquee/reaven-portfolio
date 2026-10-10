@@ -119,34 +119,38 @@ function App() {
               <p>Looking forward, I am transitioning toward Systems Engineering and IT automation. I am highly focused on using my scripting background and AI-driven solutions to automate manual workflows, proactively detect system anomalies, and accelerate the deployment of scalable IT infrastructure.</p>
             </div>
           </section>
-
-          {/* Tech Stack Section */}
+{/* Tech Stack Section */}
           <section className="space-y-6 text-left">
             <div className="flex justify-between items-baseline border-b border-slate-100 dark:border-slate-800 pb-2">
-              <h2 className="text-xl font-bold">Techical Expertise</h2>
+              <h2 className="text-xl font-bold">Technical Expertise</h2>
               <Link to="/tech-stack" className="text-sm font-medium text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors">See All</Link>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              
+              {/* Column 1: Infrastructure & Enterprise IT */}
               <div>
-                <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">Frontend</p>
+                <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">Cloud & Infrastructure</p>
                 <div className="flex flex-wrap gap-2">
-                  {['React', 'TypeScript', 'Tailwind CSS', 'JavaScript'].map(s => (
+                  {['Microsoft Azure', 'Intune (MDM)', 'Entra ID (IAM)', 'SCCM', 'AWS'].map(s => (
                     <span key={s} className="px-3 py-1.5 bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-lg text-sm font-medium text-slate-700 dark:text-slate-300">
                       {s}
                     </span>
                   ))}
                 </div>
               </div>
+
+              {/* Column 2: Development & Networking */}
               <div>
-                <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">Backend & Tools</p>
+                <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-3">Backend & Networking</p>
                 <div className="flex flex-wrap gap-2">
-                  {['Node.js', 'Express', 'PostgreSQL', 'Supabase', 'Vault', 'AWS'].map(s => (
+                  {['Node.js', 'PostgreSQL', 'Cisco', 'HashiCorp Vault', 'TypeScript'].map(s => (
                     <span key={s} className="px-3 py-1.5 bg-slate-50 dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-lg text-sm font-medium text-slate-700 dark:text-slate-300">
                       {s}
                     </span>
                   ))}
                 </div>
               </div>
+
             </div>
           </section>
 
